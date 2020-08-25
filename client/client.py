@@ -3,8 +3,7 @@
 from gen1 import main as sine
 from gen2 import main as cosine
 
-#x = float(input("Enter value of x:"))
-x = float(2)
+x = float(input("Enter value of x:"))
 sine = sine(x)
 cosine = cosine(x)
 print("Sine Value obtained from Mainframe :", sine)
